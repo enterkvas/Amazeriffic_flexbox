@@ -15,7 +15,25 @@ a {
   color: #222;
 }
 .container {
-  width: 800px;
+  width: 855px;
   margin-left: auto;
   margin-right: auto;
+  display: flex;
+}
+.container__left {
+  width: 570px;
+}
+.container__right {
+  width: 285px;
+}
+.header {
+  background: #fff;
+}
+.header .container h1 {
+  width: 12em;
+  font-size: 4.7em;
+  font-weight: 400;
+  font-style: italic;
+  margin-top: 0.3em;
+  margin-bottom: 0.3em;
 }
