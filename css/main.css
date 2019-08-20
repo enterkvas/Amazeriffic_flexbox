@@ -1,0 +1,16 @@
+body {
+  background: #00FA9A;
+  font-size: 10px;
+  font-family: 'Noto Sans', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Ubuntu', sans-serif;
+}
+a {
+  text-decoration: none;
+  color: #222;
+}
