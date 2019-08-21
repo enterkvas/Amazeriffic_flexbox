@@ -3,30 +3,30 @@ body {
   font-size: 10px;
   font-family: 'Noto Sans', sans-serif;
 }
-h1,
-h2,
-h3,
-h4,
-h5 {
-  font-family: 'Ubuntu', sans-serif;
-}
-a {
-  text-decoration: none;
-  color: #222;
-}
-.container {
+body .container {
   width: 855px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 2em;
-  padding-right: 2em;
   display: flex;
 }
-.container__left {
+body .container .container__left {
   width: 570px;
+  padding-left: 2em;
 }
-.container__right {
+body .container .container__right {
   width: 285px;
+  padding-right: 2em;
+}
+body .container h1,
+body .container h2,
+body .container h3,
+body .container h4,
+body .container h5 {
+  font-family: 'Ubuntu', sans-serif;
+}
+body .container a {
+  text-decoration: none;
+  color: #222;
 }
 .main {
   background: #fff;
@@ -55,6 +55,32 @@ a {
 }
 .main .main-right img {
   margin-left: 6em;
+}
+.footer {
+  background: #ccc;
+  padding-top: 3em;
+  padding-bottom: 1em;
+}
+.footer h5 {
+  font-size: 1.65em;
+  font-weight: 400;
+  margin-bottom: 1em;
+}
+.footer .footer-left p {
+  line-height: 1;
+}
+.footer .footer-left p span {
+  font-style: italic;
+}
+.footer .footer-right__nav {
+  display: flex;
+}
+.footer .footer-right__nav p {
+  line-height: 1;
+  font-weight: 700;
+}
+.footer .footer-right__nav .footer-right__nav-left {
+  margin-right: 13em;
 }
 .header {
   background: #fff;
